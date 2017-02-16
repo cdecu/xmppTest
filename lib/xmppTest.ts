@@ -71,7 +71,7 @@ export class xmppTest implements XmppTest.IXmppTest{
             console.log('Send CJL Message');
             client.sendMessage({
                 to: 'mediator@vpn.restomax.com/MediatorSvc_RMX_RX10_1.5.17.2.15',
-                body: "<mediator><CJL><peerinfo@vpn.restomax.com/test><CMAXNum:006.1234561.PC71><q:xxx>",
+                body: "<mediator><CJL><peerinfo><p:xxx_00000000><CMAXNum:006.1234561.PC71><q:xxx>",
             });
             // Update the value for the progress-bar on an interval.
             setInterval(() => {
