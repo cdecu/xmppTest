@@ -1,0 +1,28 @@
+{
+  "name": "xmpp.test",
+  "version": "1.0.0",
+  "description": "Test xmpp using stanza.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdecu/xmppTest.git"
+  },
+  "keywords": [
+    "xmpp",
+    "stanza"
+  ],
+  "author": "cdecu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdecu/xmppTest/issues"
+  },
+  "homepage": "https://github.com/cdecu/xmppTest#readme",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "stanza.io": "^8.1.2",
+    "yargs": "^6.6.0"
+  }
+}
